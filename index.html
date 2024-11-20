@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção de Apresentação -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img
+          src="./img/fotoLucas.jpg"
+          alt="Foto de perfil"
+          class="profile-pic"
+        />
+        <div>
+          <h1>Olá, Eu Sou Lucas Carmo</h1>
+          <p>Desenvolvedor Full Stack | Consultor SAS</p>
+          <br />
+          <a href="#projects" class="btn">Veja Meus Projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="about">
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou um desenvolvedor apaixonado por tecnologia e por criar soluções
+        inovadoras. Minha jornada começou após uma transição de carreira, quando
+        decidi me aprofundar na área de tecnologia.
+      </p>
+      <p>
+        Concluí o curso técnico em Análise e Desenvolvimento de Sistemas na
+        ETEC, onde tive a certeza de que o desenvolvimento de software era minha
+        verdadeira paixão.
+      </p>
+      <p>
+        Atualmente, atuo como desenvolvedor de software e consultor
+        especializado em SAS, buscando sempre aprimorar minhas habilidades e
+        enfrentar novos desafios.
+      </p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="projects">
+      <h2>Projetos</h2>
+      <br />
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Projeto Integrador 1</h3>
+          <br />
+          <h4>Estufa Inteligente</h4>
+          <p>
+            Projeto desenvolvido para monitorar uma estufa, coletando dados em
+            tempo real e integrando-os com informações meteorológicas. Os
+            resultados são exibidos de forma dinâmica em uma interface frontend
+            construída com React, proporcionando uma visualização intuitiva e
+            atualizada das condições da estufa.
+          </p>
+          <!-- Adicione a classe "project-img" à imagem -->
+          <img src="img/estufa.png" alt="estufa" class="project-img" />
+        </div>
+        <div class="project-card">
+          <h3>Projeto Integrador 2</h3>
+          <br />
+          <h4>Chapéu Seletor</h4>
+          <p>
+            Projeto utilizando o ESP8266, módulo MP3, alto-falantes e sensor de
+            distância. Ao detectar que o aluno colocou o chapéu, um áudio é
+            reproduzido automaticamente, indicando de forma aleatória a "escola"
+            à qual o aluno pertence.
+            <!-- Adicione a classe "project-img" à imagem -->
+            <img src="img/chapel.png" alt="chapel" class="project-img" />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+      <h2>Entre em Contato</h2>
+      <p>Adoraria conversar! Me encontre nas redes sociais:</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/lucas-pereira-dev" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/LucasPereira01" target="_blank">GitHub</a>
+        <a href="mailto:lucaspdocarmo@gmail.com">Enviar Email</a>
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
